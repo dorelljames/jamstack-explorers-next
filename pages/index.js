@@ -6,7 +6,7 @@ function Home() {
   const router = useRouter();
 
   const handleClick = (e) => {
-    router.push("/blog");
+    router.push("/pokemon");
   };
 
   return (
@@ -15,7 +15,7 @@ function Home() {
       <Link href="/blog">
         <a href="#">Blog</a>
       </Link>
-      <button onClick={handleClick}>Click Me!</button>
+      <button onClick={handleClick}>Go to pokemon search!</button>
     </>
   );
 }
