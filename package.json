@@ -4,10 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev",
+    "dev": "next",
     "build": "next build",
-    "export": "next export",
-    "start": "next dev",
     "postbuild": "next-on-netlify"
   },
   "keywords": [],
